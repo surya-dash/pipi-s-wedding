@@ -1,0 +1,354 @@
+/* falling-autumn-leave starts   */
+.falling-leaves-container {
+    position: absolute;
+    height:700px;
+    width: 100%;
+    max-width: 100%;
+    top: 0;
+    overflow: hidden;
+    z-index: 2;
+    pointer-events: none;
+  
+  }
+  .falling-leaves-container.two {
+      height: 440px;
+  }
+  .falling-leaves {
+    display: block;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    pointer-events: none;
+    -webkit-transform: translate3d(0, -100%, 0);
+            transform: translate3d(0, -100%, 0);
+            -webkit-animation: snow linear infinite;
+                    animation: snow linear infinite;
+  }
+  .falling-leaves.foreground {
+      background: transparent;
+    background-image: url(media/unrestricted___falling_autumn_leaves_by_frozenstocks_d7o1bok-350t.png);
+    -webkit-animation-duration: 15s;
+            animation-duration: 15s;
+  }
+  .falling-leaves.foreground.layered {
+    -webkit-animation-delay: 7.5s;
+            animation-delay: 7.5s;
+  }
+  
+  @-webkit-keyframes snow {
+    0% {
+      -webkit-transform: translate3d(0, -100%, 0);
+              transform: translate3d(0, -100%, 0);
+    }
+    100% {
+      -webkit-transform: translate3d(15%, 100%, 0);
+              transform: translate3d(15%, 100%, 0);
+    }
+  }
+  
+  @keyframes snow {
+    0% {
+      -webkit-transform: translate3d(0, -100%, 0);
+              transform: translate3d(0, -100%, 0);
+    }
+    100% {
+      -webkit-transform: translate3d(15%, 100%, 0);
+              transform: translate3d(15%, 100%, 0);
+    }
+  }
+  
+  @media (max-width: 1366px){
+    .falling-leaves-container {
+          position: absolute;
+          height: 628px;
+      }
+      
+  }
+  @media (max-width:1280px){
+      .falling-leaves-container {
+          position: absolute;
+          height: 578px;
+      }
+  }
+  @media (max-width:1080px){
+      .falling-leaves-container {
+          position: absolute;
+          height: 498px;
+      }
+  }
+  @media (max-width:800px){
+  
+      .falling-leaves-container {
+          position: absolute;
+          height: 375px;
+      }
+      .falling-leaves-container.two {
+          height: 352px;
+      }
+  }
+  @media (max-width:768px){
+      .falling-leaves-container {
+          position: absolute;
+          height: 373px;
+      }
+  }
+/* falling-autumn-leave ends   */
+
+.homeImage {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-image: url('media/name.jpg');
+}
+.name-on-top-center{
+    text-align: center;
+    margin-left: 20%;
+    font-size: 4vw;
+    font-style: oblique;
+    font-family: -webkit-pictograph;
+    width: 14em;
+    line-height: 1em;
+}
+.getting-married{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-image: url('media/date.jpg');
+    background-attachment: fixed;
+}
+.getting-married label{
+    text-align: center;
+    margin-left: 25%;
+    font-size: 3vw;
+    font-style: oblique;
+    font-family: -webkit-pictograph;
+    width: 20em;
+    line-height: 1em;
+    color: #F9366A;
+}
+.home-storyImage{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-image: url('media/2.jpg');
+}
+.homeContainer{
+    position: relative;
+    width:100%;
+    height:100%;
+    overflow:hidden;
+}
+
+.story{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    background-image: url('media/story.jpeg');
+    height: 100%;
+    color: #CD5B5D;
+}
+
+.bridepic {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    background-image: url('media/bride.jpeg');
+    height: 100%;
+}
+
+.groompic {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    background-image: url('media/groom.jpg');
+    height: 100%;
+}
+.program-name-time{
+    color: #00B7B6
+}
+
+.courtsey{
+    text-align: center;
+}
+
+/* Gallery style start */
+.btn:focus, .btn:active, button:focus, button:active {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+  
+  #image-gallery .modal-footer{
+    display: block;
+  }
+  
+  .thumb{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .thumb .thumbnail .img-thumbnail{
+    padding: 0;
+  }
+  /* Gallery style end */
+.eventInvitation {
+    text-align: center;
+}
+
+.bridepic {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    border-radius: 40%;
+}
+
+.groompic {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    border-radius: 40%;
+}
+
+.sub-header {
+    text-align: center;
+	  background: -webkit-linear-gradient(maroon, orange);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bride-groom {
+    text-align: center;
+	  background: -webkit-linear-gradient( #003457, #FFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.program {
+    color: #FFF;
+    text-align: center;
+    background-image: url('media/program.jpeg');
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#waitingforyou {
+    text-align: center;
+}
+
+#thankyou {
+    text-align: right;
+}
+
+@media only screen and (max-width: 768px){
+
+
+.eventInvitation {
+    width: 100%;
+    min-height: 40%;
+    margin-top: 5%;
+}
+
+.event {
+    font: italic 25px/27px Georgia, Verdana, sans-serif;
+}
+
+.invitation {
+    font: italic 15px/17px Georgia, Verdana, sans-serif;
+}
+.bridepic {
+    /* background-image: url('/images/bridepic_small.jpg'); */
+            height: 50%;
+}
+
+.groompic {
+    /* background-image: url('/images/groompic_small.jpg'); */
+            height: 50%;
+}
+
+.story {
+    font: italic 10px/12px Georgia, Verdana, sans-serif;
+    /* background-image: url('/images/story.jpeg'); */
+}
+
+.sub-header {
+    font: italic 25px/27px Georgia, Verdana, sans-serif;
+}
+}
+@media only screen and (max-width: 768px) and (orientation: portrait ){
+		.carousel-inner {
+			height: 35%;
+		}
+	}
+
+        @media only screen and (min-width: 768px)
+        {
+        
+        .eventInvitation {
+            width: 100%;
+            min-height: 40%;
+            margin-top: 5%;
+        }
+        
+        .event {
+            font: italic 50px/55px Georgia, Verdana, sans-serif;
+        }
+        
+        .invitation {
+            font: italic 35px/37px Georgia, Verdana, sans-serif;
+        }
+        
+        .bridepic {
+            /* background-image: url('/images/bridepic.jpg'); */
+            height: 100%;
+        }
+        
+        .groompic {
+            /* background-image: url('/images/groompic.jpg'); */
+            height: 100%;
+        }
+        
+        .sub-header {
+            font: italic 40px/55px Georgia, Verdana, sans-serif;
+        }
+	
+        #thecrew {
+            font: italic 20px/22px Georgia, Verdana, sans-serif;
+        }
+        
+        #waitingforyou {
+            font: italic 50px/52px Georgia, Verdana, sans-serif;
+            padding-top:10px;
+        }
+        .timer{
+            font: normal bold 50px/52px Georgia, Verdana, sans-serif;
+        }
+		#eventlink, #eventlink a{
+	font: italic 30px/32px Georgia, Verdana, sans-serif;
+}
+
+        }
